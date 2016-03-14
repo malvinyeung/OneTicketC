@@ -39,7 +39,7 @@ $(function () { // wait for document ready
       reverse: true
     })
         .setPin("#pin1")
-        .addIndicators({name: "1 (duration: 2000)"}) // add indicators (requires plugin)
+        // .addIndicators({name: "1 (duration: 2000)"}) // add indicators (requires plugin)
         .addTo(controller);
 });
 
